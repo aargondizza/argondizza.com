@@ -27,7 +27,322 @@
     <meta content="summary_large_image" name="twitter:card">
     <meta content="width=device-width, initial-scale=1" name="viewport">
 
-    <link href="./files/styles.css" rel="stylesheet" type="text/css">
+    <style>
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html {
+    height: 100%;
+}
+body {
+    margin: 0;
+    min-height: 100%;
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333;
+}
+img {
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+body {
+  background-color: #fff;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  color: #333;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+h1 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  color: #333;
+  font-size: 38px;
+  line-height: 44px;
+  font-weight: 700;
+  text-align: left;
+}
+
+h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 700;
+}
+
+h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+}
+
+h4 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+h5 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+}
+
+h6 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 700;
+}
+
+p {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  padding: 0px;
+  border-radius: 0px;
+  background-color: transparent;
+  box-shadow: none;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  color: #333;
+  font-size: 17px;
+  line-height: 35px;
+  list-style-type: disc;
+}
+
+.button {
+  display: inline-block;
+  padding: 4px 15px;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+}
+
+.section-about {
+  margin-bottom: 0px;
+  background-color: #fff;
+}
+
+.section-content-container {
+  display: block;
+  width: 100%;
+  max-width: 650px;
+  margin: 0px auto;
+  padding-bottom: 80px;
+  float: none;
+  clear: none;
+}
+
+.section-content {
+  padding: 15px;
+}
+
+.section-dark {
+  background-color: #ededed;
+}
+
+.image-viewer {
+  margin: 5px;
+  padding-left: 0px;
+  border-radius: 0px;
+  background-color: transparent;
+}
+
+.section-light {
+  background-color: #fff;
+}
+
+.link-default {
+  color: #000;
+  text-decoration: underline;
+}
+
+.link-default:hover {
+  color: #c20000;
+}
+
+.link-default:active {
+  color: #000;
+}
+
+.link-default:focus {
+  color: #000;
+}
+
+.paragraph-default {
+  margin-bottom: 0px;
+  padding-bottom: 20px;
+  box-shadow: none;
+  font-family: Bitter, serif;
+  font-size: 17px;
+  line-height: 35px;
+  list-style-type: disc;
+}
+
+.paragraph-default.list-projects {
+  padding-left: 0px;
+  box-shadow: none;
+}
+
+.paragraph-default.list-default {
+  padding-left: 35px;
+  box-shadow: none;
+}
+
+.list-item-default {
+  margin-bottom: 10px;
+  margin-left: 1px;
+}
+
+.section-heading {
+  margin-top: 70px;
+  margin-bottom: 50px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  background-color: transparent;
+  font-family: Lato, sans-serif;
+  font-size: 40px;
+  line-height: 45px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.section-projects {
+  background-color: #ededed;
+}
+
+.text-block-top-link {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  font-family: Lato, sans-serif;
+  font-size: 15px;
+  text-transform: none;
+}
+
+.link-top {
+  display: inline-block;
+  color: #000;
+  font-weight: 700;
+  text-decoration: underline;
+  text-transform: uppercase;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.link-top:hover {
+  color: #c20000;
+}
+
+.link-top:active {
+  color: #000;
+}
+
+.section-birdhouse {
+  background-color: #ededed;
+}
+
+.section-lock-eyes {
+  background-color: #ededed;
+}
+
+.section-pulse {
+  background-color: #ededed;
+}
+
+.media-default {
+  left: 0px;
+  top: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.list-item-projects {
+  margin-bottom: 40px;
+  padding-left: 0px;
+  list-style-type: none;
+}
+
+.section-robot-simulation {
+  background-color: #ededed;
+}
+
+.section-hyrdraulic-robot {
+  background-color: #fff;
+}
+
+.section-skateboards {
+  background-color: #fff;
+}
+
+.section-wafer-fixture {
+  background-color: #ededed;
+}
+
+.media-container {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  padding-top: 0px;
+}
+
+.media-container.media-no-caption {
+  margin-bottom: 50px;
+}
+
+.media-caption {
+  direction: ltr;
+  font-family: Lato, sans-serif;
+  color: #878787;
+  font-size: 15px;
+  line-height: 25px;
+  font-style: normal;
+  text-align: left;
+  text-transform: none;
+}
+
+.media-holder-no-caption {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+@media screen and (max-width: 991px) {
+  p {
+    box-shadow: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  p {
+    box-shadow: none;
+  }
+  .paragraph-default {
+    box-shadow: none;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  p {
+    box-shadow: none;
+  }
+}
+    </style>
 
     <script src="./files/webfont.js" type="text/javascript"></script>
     <script
@@ -41,43 +356,16 @@
     <div class="section-light">
         <div class="section-content-container">
             <div class="section-content">
-                <h1 class="section-heading">Hi, I'm Alan</h1>
-                <p class="paragraph-default">My latest project is the
-                    <a href="https://www.beeplab.one" target="_blank" class="link-default">BeepLab One</a>, a tiny
-                    portable music looper that you can program yourself.</p>
-                <div class="media-container"><img src="./images/f834201d-0161-4d58-b4ad-28292f408f8f_PluggingIn.gif"
-                        alt="" loading="lazy" class="media-default" width="1000">
-                    <div class="media-caption">BeepLab: make music, learn software, and have fun.</div>
-                </div>
-                <p class="paragraph-default">Some other things I've built:</p>
+                <h1 class="section-heading">Hi, I’m Alan.</h1>
+                <p class="paragraph-default">I’m a software engineer in the SF Bay Area.</p>
+                <p class="paragraph-default">I do freelance development work, and I would love to talk with you about your project. I’ve worked professionally on web software since 2020, and some form of embedded software/firmware since 2015. I have a background in hardware that’s often useful in interdisciplinary projects.</p>
+                <p class="paragraph-default">This is a portfolio and an archive, a mix of personal and professional, mostly older things that still delight me.</p>
+                <h1 class="section-heading">Let’s meet</h1>
                 <ul role="list" class="paragraph-default list-default">
-                    <li class="list-item-default">A user interface for operating 80,000 pound autonomous excavators.
-                    </li>
-                    <li class="list-item-default">A safety science platform and wearable device used by package handlers
-                        at several of the world's largest companies.</li>
-                    <li class="list-item-default">A social wearable device that’s sparked conversations at a
-                        conference with over 1,500 attendees. </li>
+                    <li class="list-item-default">Email: <a href="mailto:aargondizza@gmail.com" class="link-default">aargondizza@gmail.com</a></li>
+                    <li class="list-item-default">LinkedIn: <a target="_blank" href="https://www.linkedin.com/in/alan-argondizza/" class="link-default">alan-argondizza</a></li>
+                    <li class="list-item-default">Instagram: <a target="_blank" href="https://instagram.com/alanargondizza/" class="link-default">@alanargondizza</a></li>
                 </ul>
-                <div class="media-container"><img
-                        src="./images/5eb59bf529869accacbf3c56_working_on_stuff_lightened.jpeg" alt="" loading="lazy"
-                        class="media-default">
-                    <div class="media-caption">Photo: Nick Chelyapov.</div>
-                </div>
-                <h1 class="section-heading">Let's meet</h1>
-                <p class="paragraph-default">I do freelance development work every now and then, and I would love
-                    to talk about your project. Email me at <a href="mailto:aargondizza@gmail.com"
-                        class="link-default">aargondizza@gmail.com</a> to get in touch!</p>
-                <p class="paragraph-default">Other ways to say hello:</p>
-                <ul role="list" class="paragraph-default list-default">
-                    <li class="list-item-default"><a target="_blank" href="https://www.linkedin.com/in/alan-argondizza/"
-                            class="link-default">Linkedin</a></li>
-                    <li class="list-item-default"><a target="_blank" href="https://instagram.com/alanargondizza/"
-                            class="link-default">Instagram</a></li>
-                    <li class="list-item-default"><a target="_blank" href="https://twitter.com/alanargondizza"
-                            class="link-default">Twitter</a></li>
-                </ul>
-                <p class="paragraph-default">I live and work in San Francisco, CA. If you're in the area, say hi!
-                </p>
             </div>
         </div>
     </div>
@@ -86,6 +374,7 @@
             <div class="section-content">
                 <h1 class="section-heading">Projects</h1>
                 <ul role="list" class="paragraph-default list-projects">
+                    <li class="list-item-projects"><a href="#beeplab" class="link-default">BeepLab One</a> - October 2020 - Tiny portable music looper that you can program yourself.</li>
                     <li class="list-item-projects"><a href="#robot-app" class="link-default">Autonomous
                             Excavator UI</a> - April 2020 - Interface and infrastructure
                         for controlling and managing autonomous heavy equipment.</li>
@@ -129,7 +418,21 @@
             </div>
         </div>
     </div>
-    <div id="robot-app" class="section-light">
+    <div id="beeplab" class="section-light">
+        <div class="section-content-container">
+            <div class="section-content">
+                <h1 class="section-heading">BeepLab One</h1>
+                <div class="media-container"><img src="./images/f834201d-0161-4d58-b4ad-28292f408f8f_PluggingIn.gif"
+                        alt="" loading="lazy" class="media-default" width="1000">
+                    <div class="media-caption">BeepLab: make music, learn software, and have fun.</div>
+                </div>
+                <p class="paragraph-default">I built the <a href="https://www.beeplab.one" target="_blank" class="link-default">BeepLab One</a> because I wanted a music instrument that felt as immediate as picking up a guitar. Existing music software is powerful, but it asks a lot of you before you can express an idea.</p>
+                <p class="paragraph-default">The BeepLab One is a tiny MIDI looper that connects to a controller via USB and gets you recording immediately — four tracks, a tempo knob, 128 instruments. It runs on an Arduino, so you can program it yourself.</p>
+                <div class="text-block-top-link"><a href="#projects" class="link-top">Projects</a><a href="#" class="link-top">Top</a></div>
+            </div>
+        </div>
+    </div>
+    <div id="robot-app" class="section-dark">
         <div class="section-content-container">
             <div class="section-content">
                 <h1 class="section-heading">Autonomous Excavator UI</h1>
@@ -156,11 +459,11 @@
                     code review, and team management and mentorship when the project grew beyond myself.</p>
                 <p class="paragraph-default">For more information, see <a href="https://www.builtrobotics.com/"
                         class="link-default">www.builtrobotics.com</a>.</p>
-                <div class="text-block-top-link"><a href="#projects" class="link-top">Back to Top</a></div>
+                <div class="text-block-top-link"><a href="#projects" class="link-top">Projects</a><a href="#" class="link-top">Top</a></div>
             </div>
         </div>
     </div>
-    <div id="fuse" class="section-dark">
+    <div id="fuse" class="section-light">
         <div class="section-content-container">
             <div class="section-content">
                 <h1 class="section-heading">FUSE Platform</h1>
@@ -179,13 +482,13 @@
                     pipeline from reading individual sensor ICs to uploading and triggering data analyses. My roles
                     included product definition, system architecture design, firmware development, software development,
                     PCB design, enclosure design, monitoring, and team management and mentorship.</p>
-                <p class="paragraph-default">For more information, see <a href="https://www.strongarmtech.com/fuse"
-                        target="_blank" class="link-default">www.strongarmtech.com/fuse</a>.</p>
-                <div class="text-block-top-link"><a href="#projects" class="link-top">Back to top</a></div>
+                <p class="paragraph-default">For more information, see <a href="https://www.strongarmtech.com"
+                        target="_blank" class="link-default">www.strongarmtech.com</a>.</p>
+                <div class="text-block-top-link"><a href="#projects" class="link-top">Projects</a><a href="#" class="link-top">Top</a></div>
             </div>
         </div>
     </div>
-    <div id="alike" class="section-light">
+    <div id="alike" class="section-dark">
         <div class="section-content-container">
             <div class="section-content">
                 <h1 class="section-heading">Alike</h1>
@@ -223,11 +526,11 @@
                 <p class="paragraph-default">Alike is a product of Marcelo Coelho Studio. My roles on the project
                     included firmware development, PCB design, mechanical engineering, design for manufacturing,
                     and interaction design.</p>
-                <div class="text-block-top-link"><a href="#projects" class="link-top">back to top</a></div>
+                <div class="text-block-top-link"><a href="#projects" class="link-top">Projects</a><a href="#" class="link-top">Top</a></div>
             </div>
         </div>
     </div>
-    <div id="hyperform" class="section-dark">
+    <div id="hyperform" class="section-light">
         <div class="section-content-container">
             <div class="section-content">
                 <h1 class="section-heading">Hyperform</h1>
@@ -270,11 +573,11 @@
                         href="http://www.aec.at/prix/en/gewinner/#nextidea" class="link-default">Ars
                         Electronica</a> and <a target="_blank" href="http://formlabs.com/"
                         class="link-default">Formlabs</a>.</p>
-                <div class="text-block-top-link"><a href="#projects" class="link-top">back to top</a></div>
+                <div class="text-block-top-link"><a href="#projects" class="link-top">Projects</a><a href="#" class="link-top">Top</a></div>
             </div>
         </div>
     </div>
-    <div id="resolution" class="section-light">
+    <div id="resolution" class="section-dark">
         <div class="section-content-container">
             <div class="section-content">
                 <h1 class="section-heading">Resolution</h1>
@@ -309,11 +612,11 @@
                     CA, where it is permanently installed.</p>
                 <p class="paragraph-default">See the <a target="_blank" href="http://www.cmarcelo.com/"
                         class="link-default">Marcelo Coelho Studio</a> website for more information.</p>
-                <div class="text-block-top-link"><a href="#projects" class="link-top">Back to top</a></div>
+                <div class="text-block-top-link"><a href="#projects" class="link-top">Projects</a><a href="#" class="link-top">Top</a></div>
             </div>
         </div>
     </div>
-    <div id="birdhouse" class="section-dark">
+    <div id="birdhouse" class="section-light">
         <div class="section-content-container">
             <div class="section-content">
                 <h1 class="section-heading">Birdhouse</h1>
@@ -347,11 +650,11 @@
                         MIDI sequences that were interpreted by the MIDI decoder and synthesized into an audio
                         signal.</div>
                 </div>
-                <div class="text-block-top-link"><a href="#projects" class="link-top">back to top</a></div>
+                <div class="text-block-top-link"><a href="#projects" class="link-top">Projects</a><a href="#" class="link-top">Top</a></div>
             </div>
         </div>
     </div>
-    <div id="cheat-sheet" class="section-light">
+    <div id="cheat-sheet" class="section-dark">
         <div class="section-content-container">
             <div class="section-content">
                 <h1 class="section-heading">Life Cheat Sheet</h1>
@@ -374,11 +677,11 @@
                         target="_blank"
                         href="http://alanargondizza.tumblr.com/post/39618136355/when-i-have-too-much-stuff-i-want-to-do-i-try-to"
                         class="link-default">on my Tumblr</a>.</p>
-                <div class="text-block-top-link"><a href="#projects" class="link-top">back to top</a></div>
+                <div class="text-block-top-link"><a href="#projects" class="link-top">Projects</a><a href="#" class="link-top">Top</a></div>
             </div>
         </div>
     </div>
-    <div id="lock-eyes" class="section-dark">
+    <div id="lock-eyes" class="section-light">
         <div class="section-content-container">
             <div class="section-content">
                 <h1 class="section-heading">Lock Eyes</h1>
@@ -396,11 +699,11 @@
                         Chelyapov</a>. Curious Sound Objects is an exhibition series that showcases interactive and
                     sculptural sound-emitting pieces. Please visit <a href="http://www.curioussoundobjects.com/"
                         target="_blank" class="link-default">Curious Sound Objects</a> for more information.</p>
-                <div class="text-block-top-link"><a href="#projects" class="link-top">back to top</a></div>
+                <div class="text-block-top-link"><a href="#projects" class="link-top">Projects</a><a href="#" class="link-top">Top</a></div>
             </div>
         </div>
     </div>
-    <div id="skateboards" class="section-light">
+    <div id="skateboards" class="section-dark">
         <div class="section-content-container">
             <div class="section-content">
                 <h1 class="section-heading">Custom Skateboards</h1>
@@ -417,19 +720,18 @@
                 <p class="paragraph-default">Since I built my first board, I've refined my process. I use a router and
                     template to get smooth edges that I can endlessly reproduce. I’ve built a number of skateboards for
                     myself and for friends.</p>
-                <div class="text-block-top-link"><a href="#projects" class="link-top">back to top</a></div>
+                <div class="text-block-top-link"><a href="#projects" class="link-top">Projects</a><a href="#" class="link-top">Top</a></div>
             </div>
         </div>
     </div>
-    <div id="pulse" class="section-dark">
+    <div id="pulse" class="section-light">
         <div class="section-content-container">
             <div class="section-content">
                 <h1 class="section-heading">Pulse</h1>
                 <div class="media-holder-no-caption"><img src="./images/5532c017fe11cd3a505aa7e3_3.JPG" width="701"
                         loading="lazy" alt="" class="media-default">
                 </div>
-                <p class="paragraph-default">Pulse is a concept for an interactive installation developed by <a
-                        target="_blank" href="http://zigelbaumcoelho.com/" class="link-default">Zigelbaum + Coelho</a>,
+                <p class="paragraph-default">Pulse is a concept for an interactive installation developed by Zigelbaum + Coelho,
                     a design studio formerly operated in Cambridge, MA. Pulse eventually evolved into <a
                         href="http://www.jamiezigelbaum.com/triangular-series/" target="_blank"
                         class="link-default">Triangular Series</a>, by Jamie Zigelbaum.</p>
@@ -439,11 +741,11 @@
                 <p class="paragraph-default">I helped design and render prototypes, and coordinated fabrication of
                     components. Prototypes were made of CNC-milled anodized aluminum, proximity sensing electronics,
                     ultra bright LEDs, and acrylic diffuser materials.</p>
-                <div class="text-block-top-link"><a href="#projects" class="link-top">back to top</a></div>
+                <div class="text-block-top-link"><a href="#projects" class="link-top">Projects</a><a href="#" class="link-top">Top</a></div>
             </div>
         </div>
     </div>
-    <div id="hyrdaulic-robot" class="section-light">
+    <div id="hyrdaulic-robot" class="section-dark">
         <div class="section-content-container">
             <div class="section-content">
                 <h1 class="section-heading">Hydraulic Hexapod Robot</h1>
@@ -475,11 +777,11 @@
                 <p class="paragraph-default">This was developed for a design project in Cornell University's Laboratory
                     of Intelligent Machine Systems. Special thanks to James Paulos, Michael Meller, Rashi Tiwari, and
                     Prof. Ephrahim Garcia.</p>
-                <div class="text-block-top-link"><a href="#projects" class="link-top">back to top</a></div>
+                <div class="text-block-top-link"><a href="#projects" class="link-top">Projects</a><a href="#" class="link-top">Top</a></div>
             </div>
         </div>
     </div>
-    <div id="wafer-fixture" class="section-dark">
+    <div id="wafer-fixture" class="section-light">
         <div class="section-content-container">
             <div class="section-content">
                 <h1 class="section-heading">Wafer Fixture</h1>
@@ -490,11 +792,11 @@
                     Institute of Technology that was investigating oil-water separation. The two mating rings were
                     designed to gently hold a delicate porous wafer and also create a watertight seal with the wafer's
                     edge. The luer-lock connection was designed to allow fluid access to one side of the wafer.</p>
-                <div class="text-block-top-link"><a href="#projects" class="link-top">back to top</a></div>
+                <div class="text-block-top-link"><a href="#projects" class="link-top">Projects</a><a href="#" class="link-top">Top</a></div>
             </div>
         </div>
     </div>
-    <div id="robot-simulation" class="section-light">
+    <div id="robot-simulation" class="section-dark">
         <div class="section-content-container">
             <div class="section-content">
                 <h1 class="section-heading">Hopping Robot Simulation</h1>
@@ -523,7 +825,7 @@
                 <p class="paragraph-default"><a target="_blank"
                         href="https://drive.google.com/open?id=0B6gKtsRZ0TWeaDl2ZmhDYkplQkE" class="link-default">Matlab
                         Simulation</a>(text file, save as m-file to run)</p>
-                <div class="text-block-top-link"><a href="#projects" class="link-top">back to top</a></div>
+                <div class="text-block-top-link"><a href="#projects" class="link-top">Projects</a><a href="#" class="link-top">Top</a></div>
             </div>
         </div>
     </div>
