@@ -223,6 +223,33 @@ p {
   font-weight: 400;
 }
 
+.section-heading-dated {
+  margin-top: 70px;
+  margin-bottom: 6px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  background-color: transparent;
+  font-family: Lato, sans-serif;
+  font-size: 40px;
+  line-height: 45px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.section-date {
+  direction: ltr;
+  font-family: Lato, sans-serif;
+  color: #878787;
+  font-size: 15px;
+  line-height: 25px;
+  font-style: normal;
+  text-align: left;
+  text-transform: none;
+  margin-bottom: 50px;
+  padding-left: 2px;
+}
+
 .section-projects {
   background-color: #ededed;
 }
@@ -374,6 +401,7 @@ p {
             <div class="section-content">
                 <h1 class="section-heading">Projects</h1>
                 <ul role="list" class="paragraph-default list-projects">
+                    <li class="list-item-projects"><a href="#weekend-health" class="link-default">Weekend Health</a> - 2021 to 2025 - Telehealth platform for supporting people on GLP-1 medications.</li>
                     <li class="list-item-projects"><a href="#beeplab" class="link-default">BeepLab One</a> - October 2020 - Tiny portable music looper that you can program yourself.</li>
                     <li class="list-item-projects"><a href="#robot-app" class="link-default">Autonomous
                             Excavator UI</a> - April 2020 - Interface and infrastructure
@@ -418,10 +446,27 @@ p {
             </div>
         </div>
     </div>
-    <div id="beeplab" class="section-light">
+    <div id="weekend-health" class="section-light">
         <div class="section-content-container">
             <div class="section-content">
-                <h1 class="section-heading">BeepLab One</h1>
+                <h1 class="section-heading-dated">Weekend Health</h1>
+                <div class="section-date">2021 to 2025</div>
+                <div class="media-container">
+                    <img src="./images/weekend-health-team.jpg" alt="" loading="lazy" class="media-default">
+                    <div class="media-caption">A mix of Weekend Health and WW teammates dressing as one of the cofounders.</div>
+                </div>
+                <p class="paragraph-default">I built a telehealth product and company from the ground up with good friends. We built a custom operations platform for our in-house clinical team, and a patient experience to guide people through insurance coverage, treatment, and nutrition support while taking GLP-1 medications.</p>
+                <p class="paragraph-default">I was the first hire and worked the whole arc: idea to acquisition, first patient to more than 100 thousand patients in all 50 U.S. states. We were all full-stack and TypeScript; I built integrated chat, scheduling, patient intake, clinician dashboards, and much more.</p>
+                <p class="paragraph-default">I'm proud of my technical contributions to a fast-growing system, but I'm even more proud of my team and the impact we had. GLP-1 medications are often described as quieting "food noise," but I was privileged to hear real patient stories: life-changing relief from pain, reduced inflammation, regained time, improved mental health, and restored mobility.</p>
+                <div class="text-block-top-link"><a href="#projects" class="link-top">Projects</a><a href="#" class="link-top">Top</a></div>
+            </div>
+        </div>
+    </div>
+    <div id="beeplab" class="section-dark">
+        <div class="section-content-container">
+            <div class="section-content">
+                <h1 class="section-heading-dated">BeepLab One</h1>
+                <div class="section-date">October 2020</div>
                 <div class="media-container"><img src="./images/f834201d-0161-4d58-b4ad-28292f408f8f_PluggingIn.gif"
                         alt="" loading="lazy" class="media-default" width="1000">
                     <div class="media-caption">BeepLab: make music, learn software, and have fun.</div>
@@ -432,10 +477,11 @@ p {
             </div>
         </div>
     </div>
-    <div id="robot-app" class="section-dark">
+    <div id="robot-app" class="section-light">
         <div class="section-content-container">
             <div class="section-content">
-                <h1 class="section-heading">Autonomous Excavator UI</h1>
+                <h1 class="section-heading-dated">Autonomous Excavator UI</h1>
+                <div class="section-date">April 2020</div>
                 <div class="media-container">
                     <img
                         src="./images/5f5afde1a9c9349b8f5fbfae_20200311_BUILT_00166 Blurred.jpeg" loading="lazy" alt=""
@@ -463,10 +509,11 @@ p {
             </div>
         </div>
     </div>
-    <div id="fuse" class="section-light">
+    <div id="fuse" class="section-dark">
         <div class="section-content-container">
             <div class="section-content">
-                <h1 class="section-heading">FUSE Platform</h1>
+                <h1 class="section-heading-dated">FUSE Platform</h1>
+                <div class="section-date">June 2018</div>
                 <div class="media-container"><img src="./images/5ea76a4799ffa226db9d3c77_IMG_20180416_143105.jpg"
                         loading="lazy" alt="" class="media-default">
                     <div class="media-caption">FUSE Platform: wearable sensors docked in a smart charging station.
@@ -488,10 +535,11 @@ p {
             </div>
         </div>
     </div>
-    <div id="alike" class="section-dark">
+    <div id="alike" class="section-light">
         <div class="section-content-container">
             <div class="section-content">
-                <h1 class="section-heading">Alike</h1>
+                <h1 class="section-heading-dated">Alike</h1>
+                <div class="section-date">June 2015</div>
                 <div class="media-container"><img src="./images/5532f3bf777d17b75ce86ff0_alike.png" loading="lazy"
                         alt="" class="media-default">
                     <div class="media-caption">Photo: Marcelo Coelho Studio.</div>
@@ -530,10 +578,11 @@ p {
             </div>
         </div>
     </div>
-    <div id="hyperform" class="section-light">
+    <div id="hyperform" class="section-dark">
         <div class="section-content-container">
             <div class="section-content">
-                <h1 class="section-heading">Hyperform</h1>
+                <h1 class="section-heading-dated">Hyperform</h1>
+                <div class="section-date">September 2013</div>
                 <div class="media-container"><img src="./images/5532fc3786ac3db85c98efdb_hilbert-links.png"
                         loading="lazy" alt="" class="media-default">
                     <div class="media-caption">Photo: Marcelo Coelho Studio.</div>
@@ -577,10 +626,11 @@ p {
             </div>
         </div>
     </div>
-    <div id="resolution" class="section-dark">
+    <div id="resolution" class="section-light">
         <div class="section-content-container">
             <div class="section-content">
-                <h1 class="section-heading">Resolution</h1>
+                <h1 class="section-heading-dated">Resolution</h1>
+                <div class="section-date">September 2012</div>
                 <div class="media-container"><img src="./images/5532f9c6fd7ee5b552c3255c_Resolution2.jpg" loading="lazy"
                         alt="" class="media-default">
                     <div class="media-caption">Photo: Marcelo Coelho Studio.</div>
@@ -616,10 +666,11 @@ p {
             </div>
         </div>
     </div>
-    <div id="birdhouse" class="section-light">
+    <div id="birdhouse" class="section-dark">
         <div class="section-content-container">
             <div class="section-content">
-                <h1 class="section-heading">Birdhouse</h1>
+                <h1 class="section-heading-dated">Birdhouse</h1>
+                <div class="section-date">August 2014</div>
                 <div class="media-container"><img src="./images/5532f05486ac3db85c98eefb_punch.png" loading="lazy"
                         alt="" class="media-default">
                     <div class="media-caption">Photo: Brynmore Williams.</div>
@@ -654,10 +705,11 @@ p {
             </div>
         </div>
     </div>
-    <div id="cheat-sheet" class="section-dark">
+    <div id="cheat-sheet" class="section-light">
         <div class="section-content-container">
             <div class="section-content">
-                <h1 class="section-heading">Life Cheat Sheet</h1>
+                <h1 class="section-heading-dated">Life Cheat Sheet</h1>
+                <div class="section-date">January 2013</div>
                 <div class="media-holder-no-caption"><img src="./images/552ae397ede1286e5f00697b_deck.jpg" width="693"
                         loading="lazy" alt="" class="media-default">
                 </div>
@@ -681,10 +733,11 @@ p {
             </div>
         </div>
     </div>
-    <div id="lock-eyes" class="section-light">
+    <div id="lock-eyes" class="section-dark">
         <div class="section-content-container">
             <div class="section-content">
-                <h1 class="section-heading">Lock Eyes</h1>
+                <h1 class="section-heading-dated">Lock Eyes</h1>
+                <div class="section-date">December 2014</div>
                 <div class="media-holder-no-caption"><img src="./images/5532f7516ca197b65278ccc8_eye3red.jpg"
                         width="727" loading="lazy" alt="" class="media-default">
                 </div>
@@ -703,10 +756,11 @@ p {
             </div>
         </div>
     </div>
-    <div id="skateboards" class="section-dark">
+    <div id="skateboards" class="section-light">
         <div class="section-content-container">
             <div class="section-content">
-                <h1 class="section-heading">Custom Skateboards</h1>
+                <h1 class="section-heading-dated">Custom Skateboards</h1>
+                <div class="section-date">August 2010</div>
                 <div class="media-holder-no-caption"><img
                         src="./images/553314276ca197b65278ce40_skateboardstogether.png" width="696" loading="lazy"
                         alt="" class="media-default">
@@ -724,10 +778,11 @@ p {
             </div>
         </div>
     </div>
-    <div id="pulse" class="section-light">
+    <div id="pulse" class="section-dark">
         <div class="section-content-container">
             <div class="section-content">
-                <h1 class="section-heading">Pulse</h1>
+                <h1 class="section-heading-dated">Pulse</h1>
+                <div class="section-date">December 2012</div>
                 <div class="media-holder-no-caption"><img src="./images/5532c017fe11cd3a505aa7e3_3.JPG" width="701"
                         loading="lazy" alt="" class="media-default">
                 </div>
@@ -745,10 +800,11 @@ p {
             </div>
         </div>
     </div>
-    <div id="hyrdaulic-robot" class="section-dark">
+    <div id="hyrdaulic-robot" class="section-light">
         <div class="section-content-container">
             <div class="section-content">
-                <h1 class="section-heading">Hydraulic Hexapod Robot</h1>
+                <h1 class="section-heading-dated">Hydraulic Hexapod Robot</h1>
+                <div class="section-date">January 2011</div>
                 <div class="media-holder-no-caption"><img src="./images/55b71afac546b3a07fb2bac2_Hexapod.JPG" alt=""
                         loading="lazy" class="media-default"></div>
                 <p class="paragraph-default">A proof-of-concept robot demonstrating the feasibility of combining
@@ -781,10 +837,11 @@ p {
             </div>
         </div>
     </div>
-    <div id="wafer-fixture" class="section-light">
+    <div id="wafer-fixture" class="section-dark">
         <div class="section-content-container">
             <div class="section-content">
-                <h1 class="section-heading">Wafer Fixture</h1>
+                <h1 class="section-heading-dated">Wafer Fixture</h1>
+                <div class="section-date">July 2011</div>
                 <div class="media-holder-no-caption"><img src="./images/55331b3e777d17b75ce8719d_machinedparts4.JPG"
                         width="677" loading="lazy" alt="" class="media-default">
                 </div>
@@ -796,10 +853,11 @@ p {
             </div>
         </div>
     </div>
-    <div id="robot-simulation" class="section-dark">
+    <div id="robot-simulation" class="section-light">
         <div class="section-content-container">
             <div class="section-content">
-                <h1 class="section-heading">Hopping Robot Simulation</h1>
+                <h1 class="section-heading-dated">Hopping Robot Simulation</h1>
+                <div class="section-date">May 2010</div>
                 <div class="media-holder-no-caption"><img src="./images/55330b5d777d17b75ce87109_hoppersetup.png"
                         width="695" loading="lazy" alt="" class="media-default">
                 </div>
